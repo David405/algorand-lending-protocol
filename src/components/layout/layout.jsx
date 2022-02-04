@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, useLocation } from "react-router-dom";
+import Home from "../../pages/home/home";
 import MainRouter from "../../routes";
 import "../../vendor/css/style.css";
 import { Navbar } from "../widgets/navbar";
@@ -20,17 +21,19 @@ export function Layout() {
     }
   }, [location, routeParams]);
 
+  const xPage = (location.pathname.split("/")[1] == 'home') ? <Home/>:  (   <div id="wrapper">
+  <Sidebar />
+  <Wrapper>
+    <Navbar />
+    <MainContent routeHeader={routeParams}>
+      <MainRouter />
+    </MainContent>
+  </Wrapper>
+</div>)
   return (
     <>
-      <div id="wrapper">
-        <Sidebar />
-        <Wrapper>
-          <Navbar />
-          <MainContent routeHeader={routeParams}>
-            <MainRouter />
-          </MainContent>
-        </Wrapper>
-      </div>
+    {xPage}
+   
     </>
   );
 }
