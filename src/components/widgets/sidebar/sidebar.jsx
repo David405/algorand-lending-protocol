@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { logo } from "../../../assets/images";
+import { logo, logo_icon } from "../../../assets/images";
 import "./sidebar.css";
 
 export default function Sidebar() {
@@ -15,12 +15,12 @@ export default function Sidebar() {
         fa_icon: "fas fa-fw fa-tachometer-alt"
       },
       {
-        linkTitle: "Wallet",
+        linkTitle: "Lend",
         url: "/wallet",
         fa_icon: "fas fa-wallet"
       },
       {
-        linkTitle: "Trade",
+        linkTitle: "Borrow",
         url: "/trade",
         fa_icon: "fas fa-exchange-alt"
       },
@@ -30,7 +30,7 @@ export default function Sidebar() {
         fa_icon: "fas fa-server"
       },
       {
-        linkTitle: "Logout",
+        linkTitle: "Connect Wallet",
         url: "/logout",
         fa_icon: "fas fa-power-off"
       }
@@ -40,7 +40,7 @@ export default function Sidebar() {
 
   return (
     <ul
-      className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled"
+      className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
       id="accordionSidebar"
     >
       {/* TODO change a tag to React Navlink tag */}
@@ -50,11 +50,11 @@ export default function Sidebar() {
         to="/"
       >
         <span>
-          <div className="sidebar-brand-icon rotate-n-15">
-            <i className="fas fa-funnel-dollar"></i>
+          <div className="sidebar-brand-icon rotate-n-15 mt-4">
+            <img src={logo_icon} alt="AlgoExchange" className="img-fluid logo-icon"/>
           </div>
           <div className="sidebar-brand-text mx-3">
-            <img src={logo} alt="AlgoExchange" className="img-fluid" />
+            <img src={logo} alt="AlgoExchange" className="img-fluid logo"/>
           </div>
         </span>
       </Link>

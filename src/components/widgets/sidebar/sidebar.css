@@ -1,9 +1,19 @@
-.sideBarToggle{
+.sideBarToggle {
     position: relative;
     top: 25%;
 }
+
+.logo {
+    max-width: 198px;
+    max-height: 31px;
+}
+
+.logo-icon {
+    max-width: 60px;
+}
+
 @media only screen and (min-width: 768px) {
-    .sidebar.toggled .nav-item .nav-link{
+    .sidebar.toggled .nav-item .nav-link {
         margin-left: 0;
     }
 }
