@@ -4,19 +4,8 @@ import { profile } from '../../../assets/images'
 export default function UserInformation(params){
     return (
         <li className="nav-item dropdown no-arrow">
-        <a
-          className="nav-link dropdown-toggle"
-          href="#"
-          id="userDropdown"
-          role="button"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          <span className="mr-2 d-none d-lg-inline text-gray-600 small">
-            Alice
-          </span>
-        </a>
+        <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i className="fas fa-wallet" aria-hidden="true" style={{paddingRight: '10px'}} /><span className="mr-2 d-none d-lg-inline text-gray-600 small">0x9466...9E96</span></a>
         {/* Dropdown - User Information */}
         <div
           className="dropdown-menu dropdown-menu-right shadow animated--grow-in"

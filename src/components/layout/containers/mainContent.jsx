@@ -7,9 +7,9 @@ export function MainContent(props) {
   let { title = "No page title defined" } = props;
   return (
     <div className="container-fluid">
-      <div className="d-sm-flex align-items-center justify-content-between mb-4 bg-white flat-margin">
+      <div className="d-sm-flex align-items-center justify-content-between mb-4  flat-margin">
         {/* this will dynamically change demanding og */}
-        <h1 className="h3 mb-0 text-gray-800 pl-5">
+        <h1 className="h3 mb-0 text-white pl-5">
           {formatUrlHeader(props.routeHeader)}
           {/* {routeParams} */}
         </h1>
