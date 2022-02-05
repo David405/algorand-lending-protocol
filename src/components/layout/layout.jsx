@@ -21,19 +21,19 @@ export function Layout() {
     }
   }, [location, routeParams]);
 
-  const xPage = (location.pathname.split("/")[1] == 'home') ? <Home/>:  (   <div id="wrapper">
-  <Sidebar />
-  <Wrapper>
-    <Navbar />
-    <MainContent routeHeader={routeParams}>
-      <MainRouter />
-    </MainContent>
-  </Wrapper>
-</div>)
-  return (
-    <>
-    {xPage}
-   
-    </>
-  );
+  const xPage =
+    location.pathname.split("/")[1] == "home" ? (
+      <Home />
+    ) : (
+      <div id="wrapper">
+        <Sidebar />
+        <Wrapper>
+          <Navbar />
+          <MainContent routeHeader={routeParams}>
+            <MainRouter />
+          </MainContent>
+        </Wrapper>
+      </div>
+    );
+  return <>{xPage}</>;
 }
