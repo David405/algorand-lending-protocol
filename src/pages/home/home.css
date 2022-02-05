@@ -1,0 +1,59 @@
+.home-main {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      45deg,
+      rgba(83, 223, 224),
+      rgba(0, 76, 99),
+      rgb(39, 6, 70)
+    ),
+    url("../../assets//images/442.jpg");
+  background-position: left center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.home-main .main-home-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.home-main .main-home-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .home-main .main-home-content {
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-main .main-home-content {
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .home-main {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .home-main {
+    width: 100vw;
+    height: 100vh;
+  }
+}
