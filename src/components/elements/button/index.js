@@ -2,7 +2,16 @@ import React from "react";
 import { Loader } from "../../../assets/icons";
 import btnStyles from "./button.module.css";
 
-const Button = ({ label, className, type, onClick, loading, disabled, loadingText, buttonVariant = "primary" }) => {
+const Button = ({
+  label,
+  className,
+  type,
+  onClick,
+  loading,
+  disabled,
+  loadingText,
+  buttonVariant = "primary"
+}) => {
   return (
     <button
       className={[

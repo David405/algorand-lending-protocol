@@ -1,0 +1,8 @@
+.list-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(94, 93, 93, 0.479);
+  list-style-type: none;
+}

@@ -16,7 +16,7 @@ export default function Sidebar() {
       },
       {
         linkTitle: "Lend",
-        url: "/wallet",
+        url: "/lend",
         fa_icon: "fas fa-wallet"
       },
       {
@@ -51,10 +51,14 @@ export default function Sidebar() {
       >
         <span>
           <div className="sidebar-brand-icon rotate-n-15 mt-4">
-            <img src={logo_icon} alt="AlgoExchange" className="img-fluid logo-icon"/>
+            <img
+              src={logo_icon}
+              alt="AlgoExchange"
+              className="img-fluid logo-icon"
+            />
           </div>
           <div className="sidebar-brand-text mx-3">
-            <img src={logo} alt="AlgoExchange" className="img-fluid logo"/>
+            <img src={logo} alt="AlgoExchange" className="img-fluid logo" />
           </div>
         </span>
       </Link>
