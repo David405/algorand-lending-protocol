@@ -1,7 +1,7 @@
 import React from "react";
-import "./mobile-nav.css";
 import { Link } from "react-router-dom";
 import { alglogo } from "../../../assets/icons";
+import "./mobile-nav.css";
 
 const MobileNav = ({ setMobileNav }) => {
   return (
@@ -12,7 +12,7 @@ const MobileNav = ({ setMobileNav }) => {
             <img src={alglogo} height={100} width={100} />
           </div>
           <div onClick={() => setMobileNav(false)} className="close">
-            <i class="far fa-times-circle"></i>
+            <i className="far fa-times-circle"></i>
           </div>
         </div>
         <div>

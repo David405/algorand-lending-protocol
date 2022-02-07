@@ -1,5 +1,5 @@
 import React from "react";
-export  function SidebarMobileToggle (params) {
+export function SidebarMobileToggle() {
   return (
     <button
       id="sidebarToggleTop"
@@ -8,4 +8,4 @@ export  function SidebarMobileToggle (params) {
       <i className="fa fa-bars" />
     </button>
   );
-};
+}

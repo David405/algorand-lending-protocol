@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
-import "./mainContent.css";
+import React from "react";
 import { formatUrlHeader } from "../../../config";
+import "./mainContent.css";
 
 export function MainContent(props) {
   const chidlrenComponents = props.children;
   let { title = "No page title defined" } = props;
+
   return (
     <div className="container-fluid">
       <div className="d-sm-flex align-items-center justify-content-between mb-4  flat-margin">

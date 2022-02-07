@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter, useLocation } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import Home from "../../pages/home/home";
 import MainRouter from "../../routes";
 import "../../vendor/css/style.css";
 import { Navbar } from "../widgets/navbar";
 import Sidebar from "../widgets/sidebar/sidebar";
-import { Wrapper, MainContent } from "./containers/";
+import { MainContent, Wrapper } from "./containers/";
 
 export function Layout() {
   const location = useLocation();
