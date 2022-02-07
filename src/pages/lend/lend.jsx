@@ -15,7 +15,7 @@ const Lend = () => {
   ];
 
   const [step, setStep] = React.useState(1);
-  const AssetList = () => {
+  const AssetList = ({ setStep }) => {
     return (
       <ListItem>
         <Table>
@@ -70,7 +70,12 @@ const Lend = () => {
             </td>
             <td>
               <div>
-                <button className="btn btn-outline-primary">Supply</button>
+                <button
+                  className="btn btn-outline-primary"
+                  onClick={() => setStep(2)}
+                >
+                  Supply
+                </button>
               </div>
             </td>
             <td>
@@ -363,8 +368,14 @@ const Lend = () => {
             </select>
           </div>
         </header>
-        <Card cardClass="mt-5" components={<AssetList />}></Card>
-        {/* <Card cardClass="mt-5" components={<Details />}></Card> */}
+        {step === 1 && (
+          <Card
+            cardClass="mt-5"
+            components={<AssetList setStep={setStep} />}
+          ></Card>
+        )}
+        {step === 2 && <Card cardClass="mt-5" components={<Details />}></Card>}
+        {/*  */}
       </div>
     </section>
   );
