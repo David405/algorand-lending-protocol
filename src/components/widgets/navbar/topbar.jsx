@@ -1,7 +1,7 @@
 import React from "react";
 import { MobileSearchBar } from "../../elements/form";
 import UserInformation from "./userInformation";
-export default function TopBar(params) {
+export default function TopBar() {
   return (
     <ul className="navbar-nav ml-auto">
       {/* Nav Item - Search Dropdown (Visible Only XS) */}
@@ -22,12 +22,12 @@ export default function TopBar(params) {
           aria-labelledby="searchDropdown"
         >
           {/* SEARCHABAR FOR DESKTOP VIEW */}
-          <MobileSearchBar/>
+          <MobileSearchBar />
         </div>
       </li>
       <div className="topbar-divider d-none d-sm-block" />
-      <UserInformation/>
+      <UserInformation />
       {/* Nav Item - User Information */}
     </ul>
   );
-};
+}
