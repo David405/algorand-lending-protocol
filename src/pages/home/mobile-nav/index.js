@@ -1,13 +1,16 @@
 import React from "react";
 import "./mobile-nav.css";
 import { Link } from "react-router-dom";
+import { alglogo } from "../../../assets/icons";
 
 const MobileNav = ({ setMobileNav }) => {
   return (
     <section className="mobile_nav">
       <nav>
         <div className="logo">
-          <div>Nigeria High Commission</div>
+          <div>
+            <img src={alglogo} height={100} width={100} />
+          </div>
           <div onClick={() => setMobileNav(false)} className="close">
             <i class="far fa-times-circle"></i>
           </div>

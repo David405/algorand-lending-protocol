@@ -1,7 +1,6 @@
 .table {
   border-collapse: collapse;
   width: 100%;
-  border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
   font-family: sans-serif;
@@ -10,16 +9,17 @@
 
 td,
 th {
-  border: 1px solid #ddd;
+  border: 1px solid #000e29b0;
   padding: 12px 15px;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #f2f2f200;
+  color: var(--light);
 }
 
 tr:hover {
-  background-color: #ddd;
+  background-color: rgba(40, 106, 160, 0.274);
 }
 
 th {
