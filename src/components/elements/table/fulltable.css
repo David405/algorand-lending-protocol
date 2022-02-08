@@ -35,3 +35,16 @@ tbody.sell tr td:first-child {
     color: #16b979;
     text-align: left;
 }
+
+.dark-rounded-border-table {
+    border: 25px;
+    border: 1px solid #8080803d;
+    border-radius: 25px;
+    padding: 15px;
+    background: #252934;
+    border: 25px;
+    border: 1px solid #8080803d;
+    border-radius: 25px;
+    padding: 15px;
+    background: #252934;
+}

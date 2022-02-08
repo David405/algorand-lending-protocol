@@ -28,11 +28,6 @@ export default function Sidebar() {
         linkTitle: "Transactions",
         url: "/transactions",
         fa_icon: "fas fa-server"
-      },
-      {
-        linkTitle: "Connect Wallet",
-        url: "/logout",
-        fa_icon: "fas fa-power-off"
       }
     ],
     []
@@ -58,7 +53,7 @@ export default function Sidebar() {
             />
           </div>
           <div className="sidebar-brand-text mx-3">
-            <img src={logo} alt="AlgoExchange" className="img-fluid logo" />
+            <span>AlgoDefinance</span>
           </div>
         </span>
       </Link>
