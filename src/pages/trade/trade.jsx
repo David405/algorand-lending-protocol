@@ -1,8 +1,5 @@
 import React from "react";
 import { Card } from "../../components/elements/card";
-import { BuyAndSellWidget } from "../../components/widgets/buyAndSell";
-import { OrderBook } from "../../components/widgets/orderBook";
-import { TradeView } from "../../components/widgets/tradeView/index";
 
 export function Trade() {
   return (

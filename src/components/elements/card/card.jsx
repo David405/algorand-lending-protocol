@@ -12,7 +12,7 @@ export function Card(props) {
       ""
     );
   return (
-    <div className={["card shadow mb-4", cardClass].join(" ")}>
+    <div className={["card shadow mb-4 h-100", cardClass].join(" ")}>
       {cardTitle}
       <div className="card-body">{components}</div>
     </div>

@@ -11710,3 +11710,20 @@ body.sidebar-toggled footer.sticky-footer {
     text-decoration: none;
     opacity: .7;
 }
+
+.warning {
+    color: #FFA87D !important;
+}
+
+.danger {
+    color: #FF7588 !important;
+}
+
+.success {
+    color: #16D39A !important;
+}
+
+.shadow-dark {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(34, 78, 123, 0.12) !important;
+    border: 1px solid #8080800d;
+}

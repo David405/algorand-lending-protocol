@@ -11,7 +11,7 @@ export default function Sidebar() {
     () => [
       {
         linkTitle: "Dashboard",
-        url: "/",
+        url: "/dashboard",
         fa_icon: "fas fa-fw fa-tachometer-alt"
       },
       {
