@@ -19,6 +19,7 @@ export const AppRouter = () => {
       <Route element={<Lend title="Lend" />} path="/lend" />
       <Route element={<Home />} path="/" />
       <Route element={<Lend title="Lend" />} path="/lend" />
+      <Route element={<WalletConnectPage />} path="/walletConnect" />
     </Routes>
   );
 };
