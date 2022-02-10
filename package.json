@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@json-rpc-tools/utils": "^1.7.6",
+    "@reach-sh/stdlib": "^0.1.8-rc.7",
     "@reduxjs/toolkit": "^1.7.2",
     "@tatumio/tatum": "^1.30.7",
     "@testing-library/react": "^12.1.2",
