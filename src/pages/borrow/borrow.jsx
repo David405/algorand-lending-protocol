@@ -49,7 +49,7 @@ const Borrow = () => {
                   <img src={algorand} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -107,7 +107,7 @@ const Borrow = () => {
                   <img src={eth} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -155,7 +155,7 @@ const Borrow = () => {
                   <img src={dai} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -203,7 +203,7 @@ const Borrow = () => {
                   <img src={usdc} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -251,7 +251,7 @@ const Borrow = () => {
                   <img src={wbtc} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>

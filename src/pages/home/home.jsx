@@ -22,10 +22,8 @@ export default function Home() {
             </div>
             <div className="mb-3">
               <p className="line-big">
-                The multichain future with liquidity fragmentation has arrived.
-                AlgoDeFinance is building a DeFi liquidity protocol with full
-                crosschain compatibility to merge the liquidity across all
-                chains and let users lend and borrow on various chains
+              The Multiasset future with liquidity fragmentation has arrived.
+                AlgoDeFinance is building a DeFi liquidity protocol with support for multiple Algorand Standard Assets and let users lend, borrow various ASAs
                 simultaneously.
               </p>
             </div>
@@ -33,7 +31,7 @@ export default function Home() {
               <button className="btn btn-primary">Launch App</button>
             </div>
           </div>
-          <Particles params={particlesConfig} className="App-particles__container" />
+          
           <div></div>
         </div>
       </section>

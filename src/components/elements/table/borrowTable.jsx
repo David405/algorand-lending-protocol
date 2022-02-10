@@ -12,9 +12,9 @@ export  function BorrowTable(params) {
         </thead>
         <tbody>
           <tr>
-            <td>${5.0}</td>
-            <td>${5.0}</td>
-            <td>${5.0}</td>
+            <td>{5.0} ALGO</td>
+            <td>{5.0} ALGO</td>
+            <td>{5.0} ALGO</td>
           </tr>
         </tbody>
       </table>

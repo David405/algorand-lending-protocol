@@ -44,7 +44,7 @@ const Lend = () => {
                   <img src={algorand} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -97,7 +97,7 @@ const Lend = () => {
                   <img src={eth} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -140,7 +140,7 @@ const Lend = () => {
                   <img src={dai} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -183,7 +183,7 @@ const Lend = () => {
                   <img src={usdc} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -226,7 +226,7 @@ const Lend = () => {
                   <img src={wbtc} height={20} width={20} alt="" />
                 </div>
                 <div className="text-bold">
-                  <strong>DAI</strong>
+                  <strong>ASA</strong>
                 </div>
               </div>
             </td>
@@ -291,7 +291,7 @@ const Lend = () => {
             </div>
             <div>
               <h6>
-                To supply DAI to the Augmented Finance protocol, you need to
+                To supply ASA to the Augmented Finance protocol, you need to
                 enable it first.
               </h6>
             </div>
@@ -387,7 +387,7 @@ const Lend = () => {
               </div>
             </div>
             <div>
-              <h6>Enter the amount of DAI to withdraw</h6>
+              <h6>Enter the amount of ASA to withdraw</h6>
             </div>
           </header>
         </ListItem>
@@ -468,7 +468,7 @@ const Lend = () => {
             <select className="lend-option">
               <option value="all_assets">All Assets</option>
               <option value="all_assets">Algorand</option>
-              <option value="all_assets">other</option>
+              <option value="all_assets">ASA</option>
             </select>
           </div>
         </header>
