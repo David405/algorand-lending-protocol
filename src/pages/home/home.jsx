@@ -11,9 +11,8 @@ export default function Home() {
       {mobileNav && (
         <MobileNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
       )}
-
       <section className="home-main" id="particles-js">
-      
+        
         <MainNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
         <div className="main-home-content container">
           <div>
@@ -31,7 +30,6 @@ export default function Home() {
               <button className="btn btn-primary">Launch App</button>
             </div>
           </div>
-          
           <div></div>
         </div>
       </section>
