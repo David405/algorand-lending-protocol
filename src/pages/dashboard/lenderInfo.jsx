@@ -7,7 +7,7 @@ export default function LenderInfo(params) {
                   <h3 className='warning'>156</h3>
                 </div>
                 <div className="media-body text-right">
-                  <span>You stacked</span>
+                  <span>You stake</span>
                   <h3 className='success'>156</h3>
                 </div>
               </div>
