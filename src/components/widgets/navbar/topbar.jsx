@@ -5,7 +5,7 @@ export default function TopBar() {
   return (
     <ul className="navbar-nav ml-auto">
       {/* Nav Item - Search Dropdown (Visible Only XS) */}
-      <li className="nav-item dropdown no-arrow d-none">
+      <li className="nav-item dropdown no-arrow">
         <a
           className="nav-link dropdown-toggle"
           href="#"

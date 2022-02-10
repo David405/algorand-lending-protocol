@@ -3,15 +3,18 @@ import MainNav from "../../components/widgets/main-nav";
 import "./home.css";
 import MobileNav from "./mobile-nav";
 import Particles from "react-tsparticles";
-import particlesConfig from "../../assets/particlesConfig.json";
+import particlesConfig from "../../assets/appParticlesConfig.json";
+import { Link } from "react-router-dom";
+
 export default function Home() {
   const [mobileNav, setMobileNav] = React.useState(false);
   return (
     <>
+    <Particles params={particlesConfig} />
       {mobileNav && (
         <MobileNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
       )}
-      <section className="home-main" id="particles-js">
+      <section className="home-main">
         
         <MainNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
         <div className="main-home-content container">
@@ -27,7 +30,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <button className="btn btn-primary">Launch App</button>
+              <Link className="btn btn-primary button" to={'/dashboard'}>Launch App </Link>
             </div>
           </div>
           <div></div>

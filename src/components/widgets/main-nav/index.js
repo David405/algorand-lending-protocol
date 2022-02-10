@@ -23,7 +23,7 @@ const MainNav = ({ mobileNav, setMobileNav }) => {
               <Link to="/">Docs</Link>
             </li>
             <li>
-              <button className="btn btn-outline-primary">Launch App</button>
+            <Link className="btn btn-primary button" to={'/dashboard'}>Launch App </Link>
             </li>
           </ul>
           <div className="app-icon" onClick={() => setMobileNav(true)}>
