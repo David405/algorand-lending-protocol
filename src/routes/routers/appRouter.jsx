@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { WalletConnectPage } from "../../pages";
 import { Dashboard } from "../../pages/dashboard/dashboard";
+import Home from "../../pages/home/home";
 import Lend from "../../pages/lend/lend";
 import { Trade } from "../../pages/trade/trade";
 import { Transactions } from "../../pages/transactions/transactions";
@@ -16,7 +17,8 @@ export const AppRouter = () => {
         path="/transactions"
       />
       <Route element={<Lend title="Lend" />} path="/lend" />
-      <Route element={<WalletConnectPage />} path="/" />
+      <Route element={<Home />} path="/" />
+      <Route element={<Lend title="Lend" />} path="/lend" />
     </Routes>
   );
 };
