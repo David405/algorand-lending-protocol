@@ -50,10 +50,10 @@ const createUser = async() => {
   console.log('accBorrower', accBorrower);
 
   /* contract info for deployer account */
-  const ctcDeployer = DEPLOYER.contract(backend);
+  // const ctcDeployer = DEPLOYER.contract(backend);
 
   /* contract info for lender, created by receiving info from deployer */
-  const ctcLender1 = LENDER1.contract(backend, ctcDeployer.getInfo());
+  // const ctcLender1 = LENDER1.contract(backend, ctcDeployer.getInfo());
 
 
 
