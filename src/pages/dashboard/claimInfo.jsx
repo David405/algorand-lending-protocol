@@ -10,8 +10,7 @@ export default function ClaimInfo(params) {
           <h4>0.00</h4>
         </div>
         <div className="align-self-center">
-            <button className="btn btn-primary">Claim & stake AGF in Boost</button>
-
+            <button className="btn btn-primary">Claim Interest</button>
         </div>
       </div>
     )

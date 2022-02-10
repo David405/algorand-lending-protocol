@@ -1,27 +1,26 @@
 .lend-option {
-  position: relative;
-  background-color: transparent;
-  background-clip: border-box;
-  border: 1px solid #8080803d;
-  border-radius: 25px;
-  padding: 20px 10px;
-  width: 300px;
-  color: var(--primary);
+    position: relative;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 1px solid #8080803d;
+    border-radius: 25px;
+    padding: 20px 10px;
+    width: 300px;
+    color: #fff;
 }
 
 .lend-main .main-header {
-  display: flex;
-  justify-content: space-between;
-
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.lend-main .main-header > div:first-child {
-  align-self: flex-start;
+.lend-main .main-header>div:first-child {
+    align-self: flex-start;
 }
 
 .list-content {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }

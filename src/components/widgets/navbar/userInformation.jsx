@@ -166,15 +166,17 @@ export default function UserInformation() {
   };
 
   return (
-    <li className="nav-item dropdown no-arrow d-flex align-items-center">
-      <Button
-          className="wallet-button"
-        onClick={() => connectWebWallet()}>Connect Algo Web</Button>
-      {!address ? (
+    <li className="nav-item  no-arrow d-flex align-items-center">
+      <div className="btn-group" role="group" aria-label="Basic example">
+      <Button className="wallet-button mr-2" onClick={() => connectWebWallet()}>Connect Algo Web</Button>
+      {!address ?
+       (
         <Button onClick={() => dispatch(setIsModalOpen(true))}>
           {"Wallet Connect"}
         </Button>
-      ) : (
+        )
+       : 
+       (
         <div className="header-address-info">
           {loading ? null : (
             <span>
@@ -194,6 +196,7 @@ export default function UserInformation() {
           </Button>
         </div>
       )}
+      </div>
 
       <Dialog
         isShown={isModalOpen}

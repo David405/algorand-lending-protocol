@@ -7,15 +7,11 @@ export  function BorrowTable(params) {
           <tr>
             <th>You borrowed</th>
             <th>Your collateral</th>
-            <th>Current CTV</th>
-            <th>Maximuim LTV</th>
             <th>Available to borrow </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>${5.0}</td>
-            <td>${5.0}</td>
             <td>${5.0}</td>
             <td>${5.0}</td>
             <td>${5.0}</td>
