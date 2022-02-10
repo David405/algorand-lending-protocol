@@ -1,9 +1,30 @@
 // apis will go in here
-export const API_KEY = "e9d24e2f-fc6f-4d20-a0ba-addc4c18af53";
-export const MNEMONIC =
-  "artist alarm clerk obscure timber firm reopen provide ankle vicious exhibit waste math toilet believe puppy lucky coast post kind black suspect mule able market";
-export const URL = "https://api-eu1.tatum.io/v3";
-export const PRIVATE_KEY = JSON.parse(localStorage.getItem("private key"));
-export const PUBLIC_KEY = JSON.parse(localStorage.getItem("address"));
-export const CUSTOMERID = JSON.parse(localStorage.getItem("customerId"));
-export const ID = JSON.parse(localStorage.getItem("id"));
+const ALGOD_SERVER = 'https://testnet-algorand.api.purestake.io/ps2'
+const INDEXER_SERVER = 'https://testnet-algorand.api.purestake.io/idx2'
+const TOKEN = { 'X-API-Key': 'fsGZAtzRDw8x7jGWWVy84aa3XcilsCcr4LHZLNJT' }
+const PORT = '443';
+const API_KEY = 'fsGZAtzRDw8x7jGWW';
+const PRIVATE_KEY = '12345';
+const PUBLIC_KEY = '234';
+const URL = 'https://testnet-algorand.api.purestake.io/'
+
+// hardcoded users
+const DEPLOYER = 'SGIOOYREJPISSGWF4CLXGBFNKGVI2SSWAYUZ4KRWSQAEKUVNP554RJIPKU';
+const LENDER1 = 'JWHDCL7PJPGRZZXQADIHZ6KV3VW4JXSNCYP25RAF7ZR2P4XELBR65D46HI';
+const LENDER2 = 'MDROX2FYU6LYTPJHSUHPTTMUULZHB6WZSOB25VTKE5HHKA77NCGVAQUU4E';
+const BORROWER = '3N7YS6MFXZQ5BWOIZH2BH6SF3N662JGZUZTX6YHIW6HJZ2FTJKJ5MBHXMI';
+
+export {
+    ALGOD_SERVER,
+    INDEXER_SERVER,
+    TOKEN,
+    PORT,
+    API_KEY,
+    PRIVATE_KEY,
+    PUBLIC_KEY,
+    URL,
+    DEPLOYER,
+    LENDER1,
+    LENDER2,
+    BORROWER
+}
