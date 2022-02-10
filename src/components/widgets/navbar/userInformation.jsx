@@ -203,6 +203,7 @@ export default function UserInformation() {
         title="Connect to a wallet"
         hasFooter={false}
         onCloseComplete={() => dispatch(setIsModalOpen(false))}
+        className="bg-dark"
       >
         <Button
           className="wallet-button"
