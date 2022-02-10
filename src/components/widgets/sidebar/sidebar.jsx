@@ -21,7 +21,7 @@ export default function Sidebar() {
       },
       {
         linkTitle: "Borrow",
-        url: "/trade",
+        url: "/borrow",
         fa_icon: "fas fa-exchange-alt"
       },
       {
