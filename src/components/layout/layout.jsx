@@ -6,7 +6,8 @@ import "../../vendor/css/style.css";
 import { Navbar } from "../widgets/navbar";
 import Sidebar from "../widgets/sidebar/sidebar";
 import { MainContent, Wrapper } from "./containers/";
-
+import Particles from "react-tsparticles";
+import particlesConfig from "../../assets/appParticlesConfig.json";
 export function Layout() {
   const location = useLocation();
 
@@ -26,6 +27,7 @@ export function Layout() {
       <Home />
     ) : (
       <div id="wrapper">
+        <Particles params={particlesConfig} />
         <Sidebar />
         <Wrapper>
           <Navbar />
@@ -35,5 +37,7 @@ export function Layout() {
         </Wrapper>
       </div>
     );
-  return <>{xPage}</>;
+  return <>
+  {xPage}
+  </>;
 }

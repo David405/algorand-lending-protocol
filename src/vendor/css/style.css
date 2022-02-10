@@ -11727,3 +11727,18 @@ body.sidebar-toggled footer.sticky-footer {
     box-shadow: 0 0.15rem 1.75rem 0 rgba(34, 78, 123, 0.12) !important;
     border: 1px solid #8080800d;
 }
+
+button {
+    border-radius: 24px !important;
+    color: #fff !important;
+    background: radial-gradient(circle, rgba(40, 132, 212, 0) 0%, rgba(19, 102, 173, 0.07) 100%) !important;
+}
+
+button:hover {
+    background: rgb(40, 132, 212) !important;
+    background: -moz-radial-gradient(circle, rgba(40, 132, 212, 1) 0%, rgba(19, 102, 173, 1) 100%) !important;
+    background: -webkit-radial-gradient(circle, rgba(40, 132, 212, 1) 0%, rgba(19, 102, 173, 1) 100%) !important;
+    background: radial-gradient(circle, rgba(40, 132, 212, 1) 0%, rgba(19, 102, 173, 1) 100%) !important;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#2884d4", endColorstr="#1366ad", GradientType=1) !important;
+    box-shadow: 0 8px 6px -6px rgb(0 0 0 / 30%);
+}
