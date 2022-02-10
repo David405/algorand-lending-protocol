@@ -28,7 +28,7 @@ const MobileNav = ({ setMobileNav }) => {
             </li>
             <li className="ml-1 mt-2">
               <div>
-              <Link className="btn btn-primary button" to={'/dashboard'}>Launch App </Link>
+              <Link className="btn btn-primary button" to={'/dashboard'} target="_blank">Launch App </Link>
               </div>
             </li>
           </ul>

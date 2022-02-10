@@ -11761,8 +11761,4 @@ a.button:hover {
     box-shadow: 0 8px 6px -6px rgb(0 0 0 / 30%);
 }
 
-@media (min-width:320px) {
-    .hide-one-mobile {
-        display: none;
-    }
-}
+@media only screen and (min-width: 320px) {}

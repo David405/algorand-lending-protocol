@@ -8,8 +8,8 @@ const MainNav = ({ mobileNav, setMobileNav }) => {
     <section className="main-nav container">
       <div className="nav-container">
         <div>
-        <img src={logo_icon} height={100} width={100} />
-         <span className="negative-ml">AlgoDeFinance</span>
+       
+         <span className="negative-ml">a</span>
         </div>
         <div>
           <ul className="nav-lists">
@@ -23,7 +23,7 @@ const MainNav = ({ mobileNav, setMobileNav }) => {
               <Link to="/">Docs</Link>
             </li>
             <li>
-            <Link className="btn btn-primary button" to={'/dashboard'}>Launch App </Link>
+            <Link className="btn btn-primary button" to={'/dashboard'} target="_blank">Launch App </Link>
             </li>
           </ul>
           <div className="app-icon" onClick={() => setMobileNav(true)}>

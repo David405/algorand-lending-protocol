@@ -6,17 +6,6 @@ export default function TopBar() {
     <ul className="navbar-nav ml-auto">
       {/* Nav Item - Search Dropdown (Visible Only XS) */}
       <li className="nav-item dropdown no-arrow">
-        <a
-          className="nav-link dropdown-toggle"
-          href="#"
-          id="searchDropdown"
-          role="button"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          <i className="fas fa-search fa-fw" />
-        </a>
         <div
           className="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
           aria-labelledby="searchDropdown"

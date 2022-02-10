@@ -10,7 +10,7 @@ export default function Home() {
   const [mobileNav, setMobileNav] = React.useState(false);
   return (
     <>
-    <Particles params={particlesConfig} />
+    {/* <Particles params={particlesConfig} /> */}
       {mobileNav && (
         <MobileNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
       )}
@@ -30,7 +30,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <Link className="btn btn-primary button" to={'/dashboard'}>Launch App </Link>
+              <Link className="btn btn-primary button" to={'/dashboard'} target="_blank">Launch App </Link>
             </div>
           </div>
           <div></div>
