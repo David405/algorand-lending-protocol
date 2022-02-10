@@ -3,10 +3,12 @@ const ALGOD_SERVER = 'https://testnet-algorand.api.purestake.io/ps2'
 const INDEXER_SERVER = 'https://testnet-algorand.api.purestake.io/idx2'
 const TOKEN = { 'X-API-Key': 'fsGZAtzRDw8x7jGWWVy84aa3XcilsCcr4LHZLNJT' }
 const PORT = '443';
+const URL = 'https://testnet-algorand.api.purestake.io/'
+
+// dummy apis
 const API_KEY = 'fsGZAtzRDw8x7jGWW';
 const PRIVATE_KEY = '12345';
 const PUBLIC_KEY = '234';
-const URL = 'https://testnet-algorand.api.purestake.io/'
 
 // hardcoded users
 const DEPLOYER = 'SGIOOYREJPISSGWF4CLXGBFNKGVI2SSWAYUZ4KRWSQAEKUVNP554RJIPKU';
@@ -28,3 +30,4 @@ export {
     LENDER2,
     BORROWER
 }
+

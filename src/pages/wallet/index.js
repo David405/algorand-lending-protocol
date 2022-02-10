@@ -6,17 +6,17 @@ import * as backend from '../../build/index.main.mjs';
 import AccountAssets from "../../components/walletConnect/AccountAssets";
 import LoadingIcon from "../../components/walletConnect/LoadingIcon";
 import {
-  selectAddress,
-  selectAssets,
-  selectFetching
+    selectAddress,
+    selectAssets,
+    selectFetching
 } from "../../features/walletConnectSlice";
 
 import { DEPLOYER, LENDER1, LENDER2, BORROWER } from "../../apis/index";
 
 const WalletConnectPage = () => {
-  const assets = useSelector(selectAssets);
-  const address = useSelector(selectAddress);
-  const loading = useSelector(selectFetching);
+        const assets = useSelector(selectAssets);
+        const address = useSelector(selectAddress);
+        const loading = useSelector(selectFetching);
 
   const stdlib = loadStdlib("ALGO");  
 
