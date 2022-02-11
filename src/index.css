@@ -87,7 +87,7 @@ a:hover {
 }
 
 .Toastify__toast-theme--light {
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.95) !important;
   color: #e54c67;
   font-size: 12px;
 }

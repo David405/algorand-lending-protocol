@@ -1,8 +1,6 @@
-import { TextInput } from "evergreen-ui";
 import React from "react";
 import { toast } from "react-toastify";
 import { alglogo, algorand, dai, eth, usdc, wbtc } from "../../assets/icons";
-import { Button } from "../../components/elements";
 import { Card } from "../../components/elements/card";
 import ListItem from "../../components/elements/list-item";
 import Table from "../../components/elements/table/table";
@@ -19,7 +17,7 @@ const Lend = () => {
       suppy_reward_apy: "",
       boost_apy: "",
       coin: "Algo",
-      img: alglogo
+      img: algorand
     },
     {
       id: 2,
