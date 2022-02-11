@@ -13,7 +13,6 @@ export default function Home() {
       )}
 
       <section className="home-main" id="particles-js">
-      
         <MainNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
         <div className="main-home-content container">
           <div>
@@ -33,11 +32,10 @@ export default function Home() {
               <button className="btn btn-primary">Launch App</button>
             </div>
           </div>
-          <Particles params={particlesConfig} className="App-particles__container" />
+          {/* <Particles params={particlesConfig} className="App-particles__container" /> */}
           <div></div>
         </div>
       </section>
-    
-    </> 
+    </>
   );
 }
