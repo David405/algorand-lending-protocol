@@ -14,8 +14,8 @@ export default function Home() {
       {mobileNav && (
         <MobileNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
       )}
-      <section className="home-main">
-        
+
+      <section className="home-main" id="particles-js">
         <MainNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
         <div className="main-home-content container">
           <div>
@@ -33,10 +33,13 @@ export default function Home() {
               <Link className="btn btn-primary button" to={'/dashboard'} target="_blank">Launch App </Link>
             </div>
           </div>
+<<<<<<< HEAD
+          {/* <Particles params={particlesConfig} className="App-particles__container" /> */}
+=======
+>>>>>>> ff32ad045b6c8d7fa41f34926e887ee28bd69b74
           <div></div>
         </div>
       </section>
-    
-    </> 
+    </>
   );
 }
