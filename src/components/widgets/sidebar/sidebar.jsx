@@ -41,7 +41,7 @@ export default function Sidebar() {
       {/* TODO change a tag to React Navlink tag */}
       {/* Sidebar - Brand */}
       <Link
-        className="sidebar-brand d-flex align-items-center justify-content-center"
+        className="sidebar-brand d-flex align-items-center justify-content-center hide-one-mobile"
         to="/"
       >
         <span>

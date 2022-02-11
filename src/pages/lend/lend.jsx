@@ -159,7 +159,7 @@ const Lend = () => {
             <select className="lend-option">
               <option value="all_assets">All Assets</option>
               <option value="all_assets">Algorand</option>
-              <option value="all_assets">other</option>
+              <option value="all_assets">ASA</option>
             </select>
           </div>
         </header>
