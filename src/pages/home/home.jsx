@@ -10,7 +10,7 @@ export default function Home() {
   const [mobileNav, setMobileNav] = React.useState(false);
   return (
     <>
-    {/* <Particles params={particlesConfig} /> */}
+      {/* <Particles params={particlesConfig} /> */}
       {mobileNav && (
         <MobileNav mobileNav={mobileNav} setMobileNav={setMobileNav} />
       )}
@@ -24,19 +24,23 @@ export default function Home() {
             </div>
             <div className="mb-3">
               <p className="line-big">
-              The Multiasset future with liquidity fragmentation has arrived.
-                AlgoDeFinance is building a DeFi liquidity protocol with support for multiple Algorand Standard Assets and let users lend, borrow various ASAs
-                simultaneously.
+                The Multiasset future with liquidity fragmentation has arrived.
+                AlgoDeFinance is building a DeFi liquidity protocol with support
+                for multiple Algorand Standard Assets and let users lend, borrow
+                various ASAs simultaneously.
               </p>
             </div>
             <div>
-              <Link className="btn btn-primary button" to={'/dashboard'} target="_blank">Launch App </Link>
+              <Link
+                className="btn btn-primary button"
+                to={"/dashboard"}
+                target="_blank"
+              >
+                Launch App{" "}
+              </Link>
             </div>
           </div>
-<<<<<<< HEAD
           {/* <Particles params={particlesConfig} className="App-particles__container" /> */}
-=======
->>>>>>> ff32ad045b6c8d7fa41f34926e887ee28bd69b74
           <div></div>
         </div>
       </section>
