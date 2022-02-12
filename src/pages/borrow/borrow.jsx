@@ -178,7 +178,12 @@ const Borrow = () => {
             components={<AssetList setStep={setStep} />}
           ></Card>
         )}
-        {step === 3 && <Card cardClass="mt-5" components={<RepayTab />}></Card>}
+        {step === 3 && (
+          <Card
+            cardClass="mt-5"
+            components={<RepayTab setStep={setStep} />}
+          ></Card>
+        )}
         {step === 2 && (
           <Card
             cardClass="mt-5"
